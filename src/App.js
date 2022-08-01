@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-      App Placeholder
+      Abel planted a seed
     </div>
   );
 }
