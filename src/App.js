@@ -5,8 +5,11 @@ import { Normalize } from 'styled-normalize';
 import GlobalStyle from './GlobalStyle';
 import theme from './theme';
 
+import Header from './Header';
+
 function App() {
   return (
+<<<<<<< HEAD
     <ThemeProvider theme={theme}>
       <Router>
         <Normalize />
@@ -17,6 +20,10 @@ function App() {
         </Switch>
       </Router>
     </ThemeProvider>
+=======
+
+    <Header />
+>>>>>>> header
   );
 }
 
